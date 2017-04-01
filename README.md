@@ -17,7 +17,7 @@ gcc -O -DLINUX main.c -o nwebl
 
 ## Ejecutar
 ```
-./nwebl 
+ ./nweb 8181 /home/robin/nweb 
 
 ```
 
