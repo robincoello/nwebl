@@ -100,3 +100,81 @@ Content-Type: text/html
 
 :12
 FORBIDDEN: failed to read browser request:
+ INFO: nweb starting:8181:4454
+ INFO: request:GET /index.html HTTP/1.1**Host: 0.0.0.0:8181**User-Agent: Mozilla/5.0 (X11; Fedora; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0**Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8**Accept-Language: fr,fr-FR;q=0.8,en-US;q=0.5,en;q=0.3**Accept-Encoding: gzip, deflate**Connection: keep-alive**Upgrade-Insecure-Requests: 1****:1
+ INFO: SEND:index.html:1
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 254
+Connection: close
+Content-Type: text/html
+
+:1
+ INFO: request:GET /favicon.ico HTTP/1.1**Host: 0.0.0.0:8181**User-Agent: Mozilla/5.0 (X11; Fedora; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0**Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8**Accept-Language: fr,fr-FR;q=0.8,en-US;q=0.5,en;q=0.3**Accept-Encoding: gzip, deflate**Connection: keep-alive****:2
+NOT FOUND: failed to open file:favicon.ico
+ INFO: request:GET /pag1.html HTTP/1.1**Host: 0.0.0.0:8181**User-Agent: Mozilla/5.0 (X11; Fedora; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0**Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8**Accept-Language: fr,fr-FR;q=0.8,en-US;q=0.5,en;q=0.3**Accept-Encoding: gzip, deflate**Referer: http://0.0.0.0:8181/index.html**Connection: keep-alive**Upgrade-Insecure-Requests: 1****:3
+ INFO: SEND:pag1.html:3
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 262
+Connection: close
+Content-Type: text/html
+
+:3
+ INFO: request:GET /pag2.html HTTP/1.1**Host: 0.0.0.0:8181**User-Agent: Mozilla/5.0 (X11; Fedora; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0**Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8**Accept-Language: fr,fr-FR;q=0.8,en-US;q=0.5,en;q=0.3**Accept-Encoding: gzip, deflate**Referer: http://0.0.0.0:8181/pag1.html**Connection: keep-alive**Upgrade-Insecure-Requests: 1****:4
+ INFO: SEND:pag2.html:4
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 261
+Connection: close
+Content-Type: text/html
+
+:4
+ INFO: request:GET /index.html HTTP/1.1**Host: 0.0.0.0:8181**User-Agent: Mozilla/5.0 (X11; Fedora; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0**Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8**Accept-Language: fr,fr-FR;q=0.8,en-US;q=0.5,en;q=0.3**Accept-Encoding: gzip, deflate**Referer: http://0.0.0.0:8181/pag2.html**Connection: keep-alive**Upgrade-Insecure-Requests: 1****:5
+ INFO: SEND:index.html:5
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 254
+Connection: close
+Content-Type: text/html
+
+:5
+ INFO: request:GET /pag1.html HTTP/1.1**Host: 0.0.0.0:8181**User-Agent: Mozilla/5.0 (X11; Fedora; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0**Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8**Accept-Language: fr,fr-FR;q=0.8,en-US;q=0.5,en;q=0.3**Accept-Encoding: gzip, deflate**Referer: http://0.0.0.0:8181/index.html**Connection: keep-alive**Upgrade-Insecure-Requests: 1****:6
+ INFO: SEND:pag1.html:6
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 262
+Connection: close
+Content-Type: text/html
+
+:6
+ INFO: request:GET /pag2.html HTTP/1.1**Host: 0.0.0.0:8181**User-Agent: Mozilla/5.0 (X11; Fedora; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0**Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8**Accept-Language: fr,fr-FR;q=0.8,en-US;q=0.5,en;q=0.3**Accept-Encoding: gzip, deflate**Referer: http://0.0.0.0:8181/pag1.html**Connection: keep-alive**Upgrade-Insecure-Requests: 1****:7
+ INFO: SEND:pag2.html:7
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 261
+Connection: close
+Content-Type: text/html
+
+:7
+ INFO: request:GET /pag1.html HTTP/1.1**Host: 0.0.0.0:8181**User-Agent: Mozilla/5.0 (X11; Fedora; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0**Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8**Accept-Language: fr,fr-FR;q=0.8,en-US;q=0.5,en;q=0.3**Accept-Encoding: gzip, deflate**Referer: http://0.0.0.0:8181/pag2.html**Connection: keep-alive**Upgrade-Insecure-Requests: 1****:8
+ INFO: SEND:pag1.html:8
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 262
+Connection: close
+Content-Type: text/html
+
+:8
+ INFO: request:GET /index.html HTTP/1.1**Host: 0.0.0.0:8181**User-Agent: Mozilla/5.0 (X11; Fedora; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0**Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8**Accept-Language: fr,fr-FR;q=0.8,en-US;q=0.5,en;q=0.3**Accept-Encoding: gzip, deflate**Referer: http://0.0.0.0:8181/pag1.html**Connection: keep-alive**Upgrade-Insecure-Requests: 1****:9
+ INFO: SEND:index.html:9
+ INFO: Header:HTTP/1.1 200 OK
+Server: nweb/23.0
+Content-Length: 254
+Connection: close
+Content-Type: text/html
+
+:9
+FORBIDDEN: failed to read browser request:
+ INFO: nweb starting:8181:4619
+ERROR: system call:bind Errno=98 exiting pid=4619

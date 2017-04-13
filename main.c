@@ -29,7 +29,8 @@ struct {
 	{"gz",  "image/gz"  },  
 	{"tar", "image/tar" },  
 	{"htm", "text/html" },  
-	{"html","text/html" },  
+	{"html","text/html" },
+	{"lat" ,"text/html"},  
 	{"json","application/json" },  
 	{0,0} };
 
